@@ -1,0 +1,33 @@
+# ::mode=properties:: #
+# Basic Plugin Information {{{
+plugin.luaj.shell.LuaJShellPlugin.activate=defer
+plugin.luaj.shell.LuaJShellPlugin.author=Zigmantas Kryzius
+plugin.luaj.shell.LuaJShellPlugin.description=Provides a LuaJ shell \
+	that maintains a LuaJ Read-Eval-Print-Loop.
+plugin.luaj.shell.LuaJShellPlugin.docs=docs/index.html
+plugin.luaj.shell.LuaJShellPlugin.longdescription=description.html
+plugin.luaj.shell.LuaJShellPlugin.name=LuaJ Shell
+plugin.luaj.shell.LuaJShellPlugin.usePluginHome=false
+plugin.luaj.shell.LuaJShellPlugin.version=1.0.0
+# }}} Basic Plugin Information
+
+# Dependencies {{{
+plugin.luaj.shell.LuaJShellPlugin.depend.0=jedit 05.03.00.00
+plugin.luaj.shell.LuaJShellPlugin.depend.1=jdk 1.8
+plugin.luaj.shell.LuaJShellPlugin.depend.2=plugin luaj.LuaJPlugin 1.0.0
+plugin.luaj.shell.LuaJShellPlugin.depend.3=plugin procshell.ProcessShellPlugin 1.0
+plugin.luaj.shell.LuaJShellPlugin.depend.4=plugin classpath.ClasspathPlugin 1.0
+# }}} Dependencies
+
+# Menu {{{
+plugin.luaj.shell.LuaJShellPlugin.menu=open-luaj-shell - luaj-eval-selected \
+	luaj-eval-buffer luaj-eval-file
+open-luaj-shell.label=Open LuaJ Shell
+luaj-eval-selected.label=Evaluate selection in LuaJ shell
+luaj-eval-buffer.label=Evaluate buffer in LuaJ shell
+luaj-eval-file.label=Evaluate file in LuaJ shell
+# }}} Menu
+
+# Messages {{{
+msg.luajshell.info-message=LuaJ, ver. 3.0.1 (based on Lua 5.2.x) \u00a9 2009-2014 Luaj.org\nInteractive LuaJ console:
+# }}} Messages
