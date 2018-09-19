@@ -48,5 +48,3 @@
 		</CODE>
 	</ACTION>
 </ACTIONS>
-
-<!-- buffer = jEdit.openTemporary(view, f.getParent(), f.getName(), false); -->

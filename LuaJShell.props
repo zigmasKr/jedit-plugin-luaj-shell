@@ -22,7 +22,7 @@ plugin.luaj.shell.LuaJShellPlugin.depend.4=plugin classpath.ClasspathPlugin 1.0
 # Menu {{{
 plugin.luaj.shell.LuaJShellPlugin.menu=open-luaj-shell - luaj-eval-selected \
 	luaj-eval-buffer luaj-eval-file
-open-luaj-shell.label=Open LuaJ Shell
+open-luaj-shell.label=LuaJ Shell
 luaj-eval-selected.label=Evaluate selection in LuaJ shell
 luaj-eval-buffer.label=Evaluate buffer in LuaJ shell
 luaj-eval-file.label=Evaluate file in LuaJ shell
