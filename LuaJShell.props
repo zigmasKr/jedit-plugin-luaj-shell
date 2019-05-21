@@ -8,7 +8,7 @@ plugin.luaj.shell.LuaJShellPlugin.docs=docs/index.html
 plugin.luaj.shell.LuaJShellPlugin.longdescription=description.html
 plugin.luaj.shell.LuaJShellPlugin.name=LuaJ Shell
 plugin.luaj.shell.LuaJShellPlugin.usePluginHome=false
-plugin.luaj.shell.LuaJShellPlugin.version=1.0.0
+plugin.luaj.shell.LuaJShellPlugin.version=1.1.0
 # }}} Basic Plugin Information
 
 # Dependencies {{{
@@ -21,11 +21,12 @@ plugin.luaj.shell.LuaJShellPlugin.depend.4=plugin classpath.ClasspathPlugin 1.0
 
 # Menu {{{
 plugin.luaj.shell.LuaJShellPlugin.menu=open-luaj-shell - luaj-eval-selected \
-	luaj-eval-buffer luaj-eval-file
+	luaj-eval-buffer luaj-eval-file luaj-print-selected
 open-luaj-shell.label=LuaJ Shell
 luaj-eval-selected.label=Evaluate selection in LuaJ shell
 luaj-eval-buffer.label=Evaluate buffer in LuaJ shell
 luaj-eval-file.label=Evaluate file in LuaJ shell
+luaj-print-selected.label=Print selection in LuaJ shell
 # }}} Menu
 
 # Messages {{{

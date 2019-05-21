@@ -21,6 +21,18 @@
 			shell.evalCode(dockable, text);
 		</CODE>
 	</ACTION>
+	<ACTION NAME="luaj-print-selected">
+		<CODE>
+			text = textArea.getSelectedText();
+			if (text == null) {
+				return;
+			}
+			wm.addDockableWindow("console");
+			dockable = wm.getDockableWindow("console");
+			shell = console.Shell.getShell("LuaJ");
+			shell.evalCode(dockable, "print(" + text + ")");
+		</CODE>
+	</ACTION>
 	<ACTION NAME="luaj-eval-buffer">
 		<CODE>
 			wm.addDockableWindow("console");
